@@ -8,7 +8,7 @@ export const geminiAPI = {
             throw new Error("Gemini API key is not set.")
         }
         
-        const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${gemini_api_key}`
+        const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${gemini_api_key}`
         
         const response = await fetch(endpoint, {
             method: "POST",
