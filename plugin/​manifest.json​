@@ -1,14 +1,18 @@
 {
-  "name": "Gemini Translator",
-  "description": "Translate messages using the power of Gemini AI.",
-  "authors": [
-    {
-      "name": "Hgbao209",
-      "id": "YourDiscordID"
+    "name": "testtrans",
+    "description": "test",
+    "authors": [
+        {
+            "name": "hgbao209",
+            "id": "880033934954627093"
+        },
+        {
+            "name": "hgbao209",
+            "id": 880033934954627093"
+        }
+    ],
+    "main": "index.ts",
+    "vendetta": {
+        "icon": ""
     }
-  ],
-  "main": "index.ts",
-  "vendetta": {
-    "icon": "translate"
-  }
 }
