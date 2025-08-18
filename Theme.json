@@ -458,9 +458,18 @@
         },
         "iconpack": "rosiecord-plumpy"
     },
-    "spec": 2
-
+    "spec": 2,
+    "customCSS": "
+/* Giữ typing indicator tĩnh */
+.typingIndicator-3x0a3x,
+.typingIndicator-3x0a3x span {
+    animation: none !important;
+    transform: translateY(0) !important;
 }
+"
+}
+}
+
 
 
 
